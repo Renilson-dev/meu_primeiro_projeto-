@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário com n8n</title>
+</head>
+<body>
+  
+<h1>Contato</h1>
+
+<form action="https://leadsphd.devnx.com.br/webhook-test/github" method="POST">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="whatsApp">Whatsapp:</label><br>
+  <input type="tel" id="whatsapp" name="whatsapp"><br><br>
+  
+  <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+</html>
